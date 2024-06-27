@@ -1,0 +1,19 @@
+{
+    "name": "software-sauna-challenge",
+    "version": "1.0.0",
+    "description": "Follow a path of characters & collect letters:",
+    "main": "src/main.ts",
+    "scripts": {
+        "main": "ts-node src/main.ts",
+        "test": "jest --config ./jest.config.js"
+    },
+    "author": "Todor Nikolov",
+    "license": "ISC",
+    "devDependencies": {
+        "@jest/globals": "^29.7.0",
+        "jest": "^29.7.0",
+        "ts-jest": "^29.1.5",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.5.2"
+    }
+}
